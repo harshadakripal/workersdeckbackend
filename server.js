@@ -29,6 +29,7 @@ const serviceRoutes = require('./routes/services');
 
 app.use('/api/auth', authRoutes);         // Register/Login
 app.use('/api/bookings', bookingRoutes);      // Create booking
+app.use('/api/book', bookingRoutes);
 app.use('/api/services', serviceRoutes);  // Get services
 
 // Test route
